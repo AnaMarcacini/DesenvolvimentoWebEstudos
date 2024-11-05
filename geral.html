@@ -1,0 +1,87 @@
+<!DOCTYPE html> <!--Declaração do tipo de documento. -->
+<html lang="pt-BR">     <!-- Raiz do documento HTML. -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     <!-- Define metadados, como charset e viewport. -->
+    <title>Exemplo de Tags HTML</title>     <!-- Título da página, que aparece na aba do navegador. -->
+</head>  <!-- Contém metadados sobre o documento. -->
+<body>   <!-- Contém o conteúdo visível da página. -->
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Título Principal</h1>
+        <nav>   <!-- menu -->
+            <ul>  <!-- lista -->
+                <li><a href="#section1">Seção 1</a></li>
+                <li><a href="#section2">Seção 2</a></li>
+                <li><a href="#section3">Seção 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seções -->
+    <section id="section1">
+        <h2>Seção 1</h2>
+        <p>Este é um parágrafo de exemplo.</p>
+        <p>Outro parágrafo com uma <strong>tag forte</strong> e uma <em>tag ênfase</em>.</p>
+        <ul>
+            <li>Item de lista 1</li>
+            <li>Item de lista 2</li>
+            <li>Item de lista 3</li>
+        </ul>
+        <ol>
+            <li>Item de lista ordenada 1</li>
+            <li>Item de lista ordenada 2</li>
+        </ol>
+        <blockquote>
+            <p>Este é um bloco de citação.</p>
+        </blockquote>
+    </section>
+
+    <section id="section2">
+        <h2>Seção 2</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Cabeçalho 1</th>
+                    <th>Cabeçalho 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dado 1</td>
+                    <td>Dado 2</td>
+                </tr>
+                <tr>
+                    <td>Dado 3</td>
+                    <td>Dado 4</td>
+                </tr>
+            </tbody>
+        </table>
+        <form action="#">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <section id="section3">
+        <h2>Seção 3</h2>
+        <img src="https://via.placeholder.com/150" alt="Exemplo de imagem">
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+        <video width="320" height="240" controls>
+            <source src="video.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Exemplo de Rodapé. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
